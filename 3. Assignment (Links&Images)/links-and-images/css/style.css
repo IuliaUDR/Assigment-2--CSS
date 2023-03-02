@@ -1,0 +1,17 @@
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.clickme {
+    color: green;
+    font-size: larger;
+}
+
+.imagine {
+    border-radius: 5%;
+    border: solid 10px black;
+}
