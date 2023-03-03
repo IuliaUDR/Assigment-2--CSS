@@ -133,6 +133,7 @@ body {
 
 .thirdSection p {
     font-style: italic;
+    font-weight: 300;
     font-size: 36px;
     padding: 120px;
 }
