@@ -1,11 +1,11 @@
 body {
     width: 1124px;
     margin: auto;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;   
 }
 
 
-.firstSection {
+.first-section {
     background-color: #1F2937;
     color: white;
     padding-left: 100px;
@@ -13,54 +13,47 @@ body {
     height: 450px;
 }
 
-.header {
+.nav-bar {
     display: flex;
     margin-top: 20px;
     padding-bottom: 70px;
+    justify-content: space-between;
 }
 
-.leftSide {
+.logo { 
     justify-content: flex-start;
     margin-top: 10px;
     font-size: 24px;
     color: #F9FAF8;
 }
 
-.rightSide {
+.links ul{
     display: flex;
-    flex-direction: row;
-    gap: 10px;
-    margin-top: 10px;
-    margin-left: 440px;
-    font-size: 14px;
+    gap: 10px; 
+    font-size: 18px;
+    color: #E5E7EB;
+    justify-content: flex-end;
+    list-style-type: none;   
+}
+
+.links a {
     color: #E5E7EB;
 }
 
-.rightSide a {
-    display: inline;
-    margin: 0px;
-    color: white;
-    
-}
-
-.contentFirstSection {
+.content-first-section {
     display: flex;
     gap: 20px;
+    justify-content: space-between;
 }
 
-.contentLeftSide {
-    width: 450px;
-
-}
-
-.contentLeftSide h1 {
+.text h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
     margin-bottom: 0px;
 }
 
-.contentLeftSide p {
+.text p {
     font-size: 17px;
     color: #E5E7EB;
     margin-top: 10px;
@@ -68,17 +61,7 @@ body {
     margin-right: 20px;
 }
 
-.contentRightSide {
-    width: 450px;
-    background-color: rgb(125, 129, 138);
-    
-}
-
-.contentRightSide p{ 
-    padding: 100px 100px;
-}
-
-.firstButton {
+.btn {
     background-color: #3882f6;
     padding: 8px 28px;
     border-radius: 5px;
@@ -87,92 +70,90 @@ body {
     font-weight: bold;
 }
 
-.secondSection {
+.second-section {
     margin-top: 50px;
-    margin-right: 130px;
-    margin-left: 130px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+    
 }
 
-.secondSection h1 {
+.second-section .title {
     font-weight: 36px;
     font-size: bolder;
     color: #1F2937;
-    padding-left: 220px;
-
-}
-
-.figures {
     display: flex;
-    gap: 30px;
-    margin-left: 100px;
+    justify-content: center;
+
 }
 
-.figure {
-    margin-top: 20px;  
-    height: 130px;
-    width: 130px;
-    border: solid #3882f6;
-    border-radius: 7%;
+.content-second-section {
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
 }
 
-.figure p{
-    margin-top: 140px;
-    font-size: 15px;
-    color: grey;
-    font-weight: 500;
-    text-align:center;
+.img-text .kitty {
+    border-radius: 10px;
 }
 
-.thirdSection {
-    margin-top: 150px;
+.img-text p{
+    text-align: center;
+  
+}
+
+.third-section {
+    margin-top: 50px;
     color:#1F2937;
     background-color: #E5E7Eb;
-    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
 }
 
-.thirdSection p {
+.quote {
     font-style: italic;
     font-weight: 300;
     font-size: 36px;
-    padding: 120px;
+    
 }
 
-.thirdSection .thor {
-    margin-left: 800px;
-    margin-top: -270px;
+.author {
+    display: flex;
+    justify-content: flex-end;
     font-size: 26px;
     font-weight: bold;
 }
 
-.forthSection {
-    margin-top: 80px;
-    margin-left: 180px;
-    height: 120px;
-    width: 750px;
-    background-color: #3882F6;
-    border-radius: 5px;
-    color: white;
+.forth-section{
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    margin: 50px auto 50px;
 }
 
-.left h3 {
-    margin-left: 30px;
-    margin-top: 40px;
-    margin-bottom: 0px;
+.forth-section .content{
+    display: flex;  
+    width: 80%;
+    background-color: #3882F6;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+  
+}
+
+.call-to-action h3 {
     font-size: 20px;
 }  
 
-.left p {
-    margin-top: 2px;
-    margin-left: 30px;
+.call-to-action p {
     font-size: 15px;
     color: #F9FAF8;
 }
 
-.forthSection button {
-    margin-top: 50px;
-    margin-left: 100px;
+.forth-section .btn {
+    justify-self: center;
     background-color: #3882f6;
     padding: 7px 28px;
     border-radius: 5px;
@@ -183,14 +164,13 @@ body {
 }
 
 .footer {
-    margin-top: 80px;
-    height: 80px;
+    display: flex;
+    justify-content: center;
     background-color: #1F2937;
     color: white;
 }
 
 .footer p {
-   padding: 30px 0 0 480px;
    font-size: 15px;
    font-weight: lighter;
 }
