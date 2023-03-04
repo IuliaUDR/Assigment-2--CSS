@@ -106,15 +106,15 @@ body {
 }
 
 .figure {
-    margin-top: 20px;
+    margin-top: 20px;  
     height: 130px;
     width: 130px;
     border: solid #3882f6;
     border-radius: 7%;
 }
 
-.figure {
-    margin-top: 40px;
+.figure p{
+    margin-top: 140px;
     font-size: 15px;
     color: grey;
     font-weight: 500;
